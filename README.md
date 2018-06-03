@@ -14,4 +14,5 @@ Za pomocą przygotowanego Makefile: </br>
 `make`
 
 #### Testowanie:
-Za pomocą przygotowanego skryptu `./tester.sh` lub przekazanie pliku z folderu tests/in na wejście programu : `./mipsasm < ./tests/in/test1a.in`
+Za pomocą przygotowanego skryptu `./tester.sh` lub przekazanie pliku z folderu tests/in na wejście programu : </br>
+`./mipsasm < ./tests/in/test1a.in`
