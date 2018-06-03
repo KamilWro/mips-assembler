@@ -1,0 +1,12 @@
+                #MIPS
+# testing arithmetic and Logical instructions (only I Format)
+
+addi $t0,$s3        # addi $t, $s, imm
+lui $t1,0x7fff      # lui $t, imm
+addiu $0,$1,-1      # addiu $t, $s, imm
+slti $1,$2,16       # slti $t, $s, imm
+sltiu $2,$3,0       # sltiu $t, $s, imm
+andi $30,$1,1       # andi $t, $s, imm
+xori $0, $0, 0x0    # xori $t, $s, imm
+ori $5,$5,-32768    # ori $t, $s, imm
+

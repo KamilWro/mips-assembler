@@ -1,0 +1,13 @@
+.text
+                #MIPS
+# testing arithmetic and Logical instructions (only I Format)
+
+00000000 2268fff4 addi $t0,$s3,-12    # addi $t, $s, imm
+00000004 3c097fff lui $t1,0x7fff      # lui $t, imm
+00000008 2420ffff addiu $0,$1,-1      # addiu $t, $s, imm
+0000000c 28410010 slti $1,$2,16       # slti $t, $s, imm
+00000010 2c620000 sltiu $2,$3,0       # sltiu $t, $s, imm
+00000014 303e0001 andi $30,$1,1       # andi $t, $s, imm
+00000018 38000000 xori $0, $0, 0x0    # xori $t, $s, imm
+0000001c 34a58000 ori $5,$5,-32768    # ori $t, $s, imm
+

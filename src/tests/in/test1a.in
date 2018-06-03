@@ -1,0 +1,14 @@
+                #MIPS
+# testing data transfer instructions and registers from 0 to 3
+
+mfhi $0         # mfhi $rd
+mfhi $zero
+
+mflo $1         # mfho $rd
+mflo $at
+
+mthi $2         # mthi $rs
+mthi $v0
+
+mtlo $3         # mtlo $rs
+mtlo $v1
